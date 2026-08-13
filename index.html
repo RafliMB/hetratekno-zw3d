@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZW3D - All-in-One CAD, CAM & CAE | Hetra Teknologi Indonesia</title>
+    <meta name="description" content="ZW3D adalah platform terintegrasi untuk desain 3D, simulasi engineering, dan CNC machining. Solusi lengkap CAD, CAE, dan CAM untuk berbagai industri.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo-group">
+                <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435487/Hetra_Logo_White.png" alt="Hetra Logo" class="logo" loading="lazy">
+                <span class="logo-divider"></span>
+                <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435495/Zwsoft_Logo_White.png" alt="ZWSOFT Logo" class="logo-zwsoft" loading="lazy">
+            </div>
+            <nav class="nav-links">
+                <a href="#fitur">Fitur</a>
+                <a href="#industri">Industri</a>
+                <a href="#harga">Harga</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#kontak" class="btn btn-primary">Hubungi Kami</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content fade-in-up">
+                    <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435493/Zw3d_Logo_White.webp" alt="ZW3D" class="hero-logo" loading="lazy">
+                    <h1>ALL-IN-ONE <span class="highlight-text">CAD, CAM & CAE</span><br>UNTUK DESAIN HINGGA MANUFAKTUR</h1>
+                    <p>Desain 3D, simulasi engineering, dan CNC machining dalam satu platform yang terintegrasi.</p>
+                    <div class="hero-buttons">
+                        <a href="#kontak" class="btn btn-primary glow-btn">REQUEST DEMO</a>
+                        <a href="#kontak" class="btn btn-outline">KONSULTASI GRATIS</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-left">
+                    <div class="image-glow-wrapper">
+                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786459825/3d_ov20.png" alt="ZW3D Interface" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problem" class="section problem-section">
+            <div class="problem-bg-pattern"></div>
+            <div class="container relative-z">
+                <div class="section-header text-center fade-in-up">
+                    <span class="badge-danger">TANTANGAN INDUSTRI</span>
+                    <h2 class="dark-text">Masih Menggunakan Banyak Software<br>untuk Satu Proses Produk?</h2>
+                    <p class="subtitle">Proses yang terpisah antara CAD, CAE dan CAM dapat menyebabkan inefisiensi, biaya tinggi, dan risiko kehilangan data.</p>
+                </div>
+                
+                <!-- Process Flow Diagram -->
+                <div class="process-flow-container fade-in-up delay-1">
+                    <!-- CAD Step -->
+                    <div class="process-step">
+                        <div class="process-box">
+                            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="var(--primary-light)"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21" stroke-width="2"></line>
+                                <line x1="12" y1="17" x2="12" y2="21" stroke-width="2"></line>
+                                <path d="M12 7l3 1.5v3l-3 1.5-3-1.5v-3z" fill="var(--bg-white)" stroke="var(--primary)"></path>
+                                <polyline points="12 11.5 12 8.5"></polyline>
+                                <polyline points="9 8.5 12 10 15 8.5"></polyline>
+                            </svg>
+                        </div>
+                        <div class="process-info">
+                            <h3 class="text-primary">CAD</h3>
+                            <p>3D Design & Modeling</p>
+                            <div class="process-line"></div>
+                        </div>
+                    </div>
+
+                    <!-- Arrow -->
+                    <div class="process-arrow animated-arrow">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="4" y1="12" x2="20" y2="12"></line>
+                            <polyline points="13 5 20 12 13 19"></polyline>
+                        </svg>
+                    </div>
+
+                    <!-- CAE Step -->
+                    <div class="process-step">
+                        <div class="process-box">
+                            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                                <!-- Solid Cube -->
+                                <path d="M7 9l3 1.5v4l-3 1.5-3-1.5v-4z" fill="var(--secondary)" stroke="var(--primary)"></path>
+                                <path d="M7 9l3-1.5 3 1.5L10 10.5z" fill="var(--primary)"></path>
+                                <!-- Wireframe Cube -->
+                                <path d="M17 11l3 1.5v4l-3 1.5-3-1.5v-4z" stroke-dasharray="2 2" opacity="0.6"></path>
+                                <path d="M17 11l-3 1.5v4l3 1.5" stroke-dasharray="2 2" opacity="0.6"></path>
+                                <path d="M17 11l-3-1.5 3-1.5 3 1.5z" stroke-dasharray="2 2" opacity="0.6"></path>
+                                <!-- Simulation Arrows -->
+                                <line x1="14" y1="5" x2="14" y2="2" stroke="var(--secondary)" stroke-width="1.5"></line>
+                                <polyline points="12 4 14 2 16 4" stroke="var(--secondary)" stroke-width="1.5"></polyline>
+                            </svg>
+                        </div>
+                        <div class="process-info">
+                            <h3 class="text-primary">CAE</h3>
+                            <p>Simulation & Analysis</p>
+                            <div class="process-line"></div>
+                        </div>
+                    </div>
+
+                    <!-- Arrow -->
+                    <div class="process-arrow animated-arrow">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="4" y1="12" x2="20" y2="12"></line>
+                            <polyline points="13 5 20 12 13 19"></polyline>
+                        </svg>
+                    </div>
+
+                    <!-- CAM Step -->
+                    <div class="process-step">
+                        <div class="process-box">
+                            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                                <!-- Machine Top -->
+                                <path d="M8 3h8v3H8z" fill="var(--primary-light)"></path>
+                                <path d="M9 6h6v3H9z" fill="var(--bg-white)"></path>
+                                <!-- Spindle -->
+                                <path d="M10 9h4l-1 5h-2l-1-5z" fill="var(--primary)"></path>
+                                <!-- Base/Vise -->
+                                <path d="M4 18h16v3H4z" fill="var(--primary)"></path>
+                                <path d="M6 16h12v2H6z" fill="var(--secondary)"></path>
+                                <!-- Drill tip and spark -->
+                                <line x1="12" y1="14" x2="12" y2="16"></line>
+                                <path d="M10 14l-1-1 M14 14l1-1" stroke="#f59e0b" stroke-width="1.5"></path>
+                            </svg>
+                        </div>
+                        <div class="process-info">
+                            <h3 class="text-primary">CAM</h3>
+                            <p>Toolpath & Machining</p>
+                            <div class="process-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problem Grid Modernized -->
+                <div class="problem-grid fade-in-up delay-2">
+                    <div class="problem-card">
+                        <div class="icon-wrapper">
+                            <span class="icon-danger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                            </span>
+                        </div>
+                        <h3>Biaya Lisensi Tinggi</h3>
+                        <p>Banyak software berbeda membutuhkan investasi yang membengkak untuk setiap departemen.</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="icon-wrapper">
+                            <span class="icon-danger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                            </span>
+                        </div>
+                        <h3>Transfer Data Berulang</h3>
+                        <p>Export-import lintas platform secara berulang meningkatkan waktu kerja dan memperbesar risiko.</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="icon-wrapper">
+                            <span class="icon-danger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline><line x1="9" y1="15" x2="15" y2="15"></line></svg>
+                            </span>
+                        </div>
+                        <h3>Risiko Kehilangan Data</h3>
+                        <p>Konversi format file yang tidak sempurna menyebabkan hilangnya informasi dan cacat desain.</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="icon-wrapper">
+                            <span class="icon-danger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            </span>
+                        </div>
+                        <h3>Workflow Tidak Efisien</h3>
+                        <p>Proses yang terpisah dan sistem yang usang membuat kolaborasi tim menjadi lambat & tidak optimal.</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="icon-wrapper">
+                            <span class="icon-danger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l2-9 5 18 3-10 2 3h4"></path></svg>
+                            </span>
+                        </div>
+                        <h3>Revisi Memakan Waktu</h3>
+                        <p>Satu perubahan kecil mengharuskan teknisi untuk merombak ulang di banyak software sekaligus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section id="solution" class="section solution-section">
+            <div class="container solution-container">
+                <div class="solution-content fade-in-up">
+                    <h2 class="dark-text">Satu Platform untuk<br><span class="text-primary">Desain, Simulasi, dan Manufaktur</span></h2>
+                    <p class="lead-text">ZW3D mengintegrasikan CAD, CAE, dan CAM dalam satu lingkungan kerja yang terhubung sehingga Anda dapat bekerja lebih cepat, akurat, dan efisien.</p>
+                    <a href="#kontak" class="btn btn-primary">PELAJARI LEBIH LANJUT <span class="arrow">→</span></a>
+                </div>
+                <div class="solution-visual fade-in-left delay-1">
+                    
+                    <div class="snippet-wrapper" id="explode-container">
+                        <div class="dc-scale" style="transform: scale(0.807692);">
+                                <div class="dcd-cont">
+                                    <div class="dcd-item">
+                                        <div class="dcd-icon"><img src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/3d_ov47.png" alt=""></div>
+                                        <div class="dcd-name d-bold">Administrator</div>
+                                    </div>
+                                    <div class="dcd-item">
+                                        <div class="dcd-icon"><img src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/3d_ov48.png" alt=""></div>
+                                        <div class="dcd-name d-bold">Design Manager</div>
+                                    </div>
+                                    <div class="dcd-item">
+                                        <div class="dcd-icon"><img src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/3d_ov49.png" alt=""></div>
+                                        <div class="dcd-name d-bold">Mechanical Designer</div>
+                                    </div>
+                                    <div class="dcd-item">
+                                        <div class="dcd-icon"><img src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/3d_ov50.png" alt=""></div>
+                                        <div class="dcd-name d-bold">Mechanical Designer</div>
+                                    </div>
+                                </div>
+                                <div class="dca-cont">
+                                    <div class="dca-one dca-special">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/drawing.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/drawing.png"></div>
+                                        <div class="dca-text"><span class="dca-span d-bold">• 2D Drawing</span></div>
+                                    </div>
+                                    <div class="dca-one dca-one1">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/bottom-gear.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/bottom-gear.png"></div>
+                                        <div class="dca-text"><span class="dca-span d-bold">• Part Design</span></div>
+                                        <div class="dca-text dca-text2"><span class="dca-span d-bold">• Collaboration</span></div>
+                                    </div>
+                                    <div class="dca-one dca-one2">
+                                        <div class="dca-img">
+                                            <img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/base-plate-CAE.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/base-plate-CAE.png">
+                                            <img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/base-plate-CAE-color.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/base-plate-CAE-color.png">
+                                        </div>
+                                        <div class="dca-text"><span class="dca-span d-bold">• Simulation (CAE)</span></div>
+                                    </div>
+                                    <div class="dca-one dca-one3">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/red-cylinder.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/red-cylinder.png"></div>
+                                    </div>
+                                    <div class="dca-one dca-one4">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/battery.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/battery.png"></div>
+                                    </div>
+                                    <div class="dca-one dca-one5">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/middle-gear.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/middle-gear.png"></div>
+                                        <div class="dca-text"><span class="dca-span d-bold">• Assembly Design</span></div>
+                                    </div>
+                                    <div class="dca-one dca-one6">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/three-pillar.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/three-pillar.png"></div>
+                                    </div>
+                                    <div class="dca-one dca-one7">
+                                        <div class="dca-img">
+                                            <img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/middle-panel-cam.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/middle-panel-cam.png">
+                                            <img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/middle-panel-cam.GIF" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/middle-panel-cam.GIF">
+                                        </div>
+                                        <div class="dca-text"><span class="dca-span d-bold">• Manufacturing (CAM)</span></div>
+                                    </div>
+                                    <div class="dca-one dca-one8">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/blue-component.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/blue-component.png"></div>
+                                    </div>
+                                    <div class="dca-one dca-one9">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/y-pillar.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/y-pillar.png"></div>
+                                    </div>
+                                    <div class="dca-one dca-one10">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/yg-screw.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/yg-screw.png"></div>
+                                    </div>
+                                    <div class="dca-one dca-one11">
+                                        <div class="dca-img"><img data-img="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/three-screw.png" alt="" done="done" src="https://statics.zwsoft.com/static/style2020/images/3d_ov_2025/three-screw.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="fitur" class="section features-section">
+            <div class="features-bg-overlay"></div>
+            <div class="container relative-z">
+                <div class="section-header text-center fade-in-up">
+                    <h2 class="text-white">FITUR UNGGULAN ZW3D</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="features-grid fade-in-up delay-1">
+                    <div class="feature-card-glass">
+                        <div class="feature-num">01</div>
+                        <div class="feature-icon-img">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        </div>
+                        <h3>Parametric & Direct Modeling</h3>
+                        <p>Proses Desain yang lebih efisien dengan dibantu parametrik dan direct modeling.</p>
+                    </div>
+                    <div class="feature-card-glass">
+                        <div class="feature-num">02</div>
+                        <div class="feature-icon-img">
+                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                        </div>
+                        <h3>Ringan dan Stabil</h3>
+                        <p>Tangani assembly kompleks hingga ribuan komponen dengan performa stabil.</p>
+                    </div>
+                    <div class="feature-card-glass">
+                        <div class="feature-num">03</div>
+                        <div class="feature-icon-img">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        </div>
+                        <h3>Integrated Simulation</h3>
+                        <p>Lakukan analisis struktur, termal, hingga getaran tanpa software tambahan.</p>
+                    </div>
+                    <div class="feature-card-glass">
+                        <div class="feature-num">04</div>
+                        <div class="feature-icon-img">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                        </div>
+                        <h3>Built-in CAM</h3>
+                        <p>Dukungan machining 2-axis hingga 5-axis secara terintegrasi.</p>
+                    </div>
+                    <div class="feature-card-glass">
+                        <div class="feature-num">05</div>
+                        <div class="feature-icon-img">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <h3>Kompatibel Data</h3>
+                        <p>Mendukung lebih dari 25 format CAD industri untuk kolaborasi mudah.</p>
+                    </div>
+                    <div class="feature-card-glass">
+                        <div class="feature-num">06</div>
+                        <div class="feature-icon-img">
+                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                        </div>
+                        <h3>Lisensi Seumur Hidup</h3>
+                        <p>Investasi satu kali tanpa biaya langganan tahunan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries Section -->
+        <section id="industri" class="section industries-section bg-soft-light">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <h2 class="dark-text">Solusi untuk Berbagai Industri</h2>
+                    <p class="subtitle">ZW3D dirancang secara spesifik untuk menjawab tantangan manufaktur di beragam sektor.</p>
+                </div>
+                <div class="industry-grid fade-in-up delay-1">
+                    <div class="industry-card">
+                        <div class="industry-img-wrapper">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435480/Automotive.jpg" alt="Automotive" loading="lazy">
+                        </div>
+                        <div class="industry-info">
+                            <h3>Automotive</h3>
+                            <p>Desain komponen dan sistem otomotif dengan presisi tinggi.</p>
+                        </div>
+                    </div>
+                    <div class="industry-card">
+                        <div class="industry-img-wrapper">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435490/Machinery.jpg" alt="Machinery" loading="lazy">
+                        </div>
+                        <div class="industry-info">
+                            <h3>Machinery</h3>
+                            <p>Solusi desain mesin dan peralatan industri yang efisien.</p>
+                        </div>
+                    </div>
+                    <div class="industry-card">
+                        <div class="industry-img-wrapper">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435492/Mold_Die.webp" alt="Mold & Die" loading="lazy">
+                        </div>
+                        <div class="industry-info">
+                            <h3>Mold & Die</h3>
+                            <p>Desain mold akurat & percepat proses manufacturing.</p>
+                        </div>
+                    </div>
+                    <div class="industry-card">
+                        <div class="industry-img-wrapper">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435488/Industrial_Equipment.webp" alt="Industrial Equipment" loading="lazy">
+                        </div>
+                        <div class="industry-info">
+                            <h3>Industrial Equipment</h3>
+                            <p>Peralatan industri kompleks dengan performa optimal.</p>
+                        </div>
+                    </div>
+                    <div class="industry-card">
+                        <div class="industry-img-wrapper">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435483/Consumer_Products.webp" alt="Consumer Products" loading="lazy">
+                        </div>
+                        <div class="industry-info">
+                            <h3>Consumer Products</h3>
+                            <p>Ciptakan produk inovatif dengan siklus lebih cepat.</p>
+                        </div>
+                    </div>
+                    <div class="industry-card">
+                        <div class="industry-img-wrapper">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435486/Electronics.webp" alt="Electronics" loading="lazy">
+                        </div>
+                        <div class="industry-info">
+                            <h3>Electronics</h3>
+                            <p>Desain enclosure dan komponen detail presisi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-choose-us-container fade-in-up">
+                    <div class="why-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800" alt="Tim Profesional Hetra" loading="lazy">
+                        <div class="why-overlay-box">
+                            <h3 class="text-white">Sejak 2017</h3>
+                            <p class="text-white opacity-80">Berpengalaman di Industri</p>
+                        </div>
+                    </div>
+                    <div class="why-content-wrapper">
+                        <h2 class="dark-text">Mengapa Memilih Hetra?</h2>
+                        <div class="why-list">
+                            <div class="why-list-item">
+                                <div class="why-icon">✓</div>
+                                <div>
+                                    <h4>Solusi Terintegrasi</h4>
+                                    <p>Menyediakan Solusi teknologi terintegrasi untuk engineering dan transformasi digital industri.</p>
+                                </div>
+                            </div>
+                            <div class="why-list-item">
+                                <div class="why-icon">✓</div>
+                                <div>
+                                    <h4>Tim Profesional</h4>
+                                    <p>Didukung tim ahli dan bersertifikat untuk konsultasi, implementasi, dan training eksklusif.</p>
+                                </div>
+                            </div>
+                            <div class="why-list-item">
+                                <div class="why-icon">✓</div>
+                                <div>
+                                    <h4>Pelayanan Cepat & Responsif</h4>
+                                    <p>Berkomitmen memberikan pelayanan purna jual profesional, berorientasi pada kebutuhan pelanggan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="harga" class="section pricing-section">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <h2 class="dark-text">Temukan Solusi yang Tepat untuk Bisnis Anda</h2>
+                    <p class="subtitle"><strong>Lisensi Permanen</strong> — Cukup bayar sekali, miliki selamanya.<br><strong>Upgrade Fleksibel</strong> — Perbarui ke versi terbaru kapan pun sesuai kebutuhan.</p>
+                </div>
+                
+                <div class="pricing-grid-top fade-in-up delay-1">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Lite</h3>
+                            <div class="price-val">Rp 30.640.000</div>
+                            <p class="pricing-target">Product Design</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✔</span> Basic CAD</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#kontak" class="btn btn-outline-primary btn-block">WhatsApp Kami</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">BEST SELLER</div>
+                        <div class="pricing-header">
+                            <h3>Standard</h3>
+                            <div class="price-val">Rp 51.090.000</div>
+                            <p class="pricing-target">Product Design</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✔</span> Advanced CAD</li>
+                            <li><span class="check">✔</span> Steel Structure Design</li>
+                            <li><span class="check">✔</span> Basic Linear Static Analysis (Part)</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#kontak" class="btn btn-primary btn-block">WhatsApp Kami</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Advanced</h3>
+                            <div class="price-val">Rp 85.050.000</div>
+                            <p class="pricing-target">Machine & Equipment Design</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✔</span> Everything in Standard</li>
+                            <li><span class="check">✔</span> Basic Linear Static Analysis</li>
+                            <li><span class="check">✔</span> Harness Design</li>
+                            <li><span class="check">✔</span> ECAD/MCAD Collaboration</li>
+                            <li><span class="check">✔</span> Piping Design</li>
+                            <li><span class="check">✔</span> ZW3D Motion</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#kontak" class="btn btn-outline-primary btn-block">WhatsApp Kami</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-grid-bottom fade-in-up delay-2">
+                    <div class="pricing-card small">
+                        <div class="pricing-header">
+                            <h3>2-Axis Machining</h3>
+                            <div class="price-val">Rp 42.530.000</div>
+                            <p class="pricing-target">Integrated CAD / CAM</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✔</span> Everything in Lite</li>
+                            <li><span class="check">✔</span> 2-Axis CAM</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#kontak" class="btn btn-outline-primary btn-block">Hubungi Kami</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card small">
+                        <div class="pricing-header">
+                            <h3>3-Axis Machining</h3>
+                            <div class="price-val">Rp 76.580.000</div>
+                            <p class="pricing-target">Integrated CAD / CAM</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✔</span> Everything in Lite</li>
+                            <li><span class="check">✔</span> 3-Axis CAM</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#kontak" class="btn btn-outline-primary btn-block">Hubungi Kami</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card small">
+                        <div class="pricing-header">
+                            <h3>Professional</h3>
+                            <div class="price-val">Rp 76.580.000</div>
+                            <p class="pricing-target">Mold Design</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✔</span> Everything in Standard</li>
+                            <li><span class="check">✔</span> Electrodes Design</li>
+                            <li><span class="check">✔</span> Mold Design</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#kontak" class="btn btn-outline-primary btn-block">Hubungi Kami</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card small premium">
+                        <div class="pricing-header">
+                            <h3>Premium</h3>
+                            <div class="price-val">Rp 122.440.000</div>
+                            <p class="pricing-target">All in one CAD/CAE/CAM</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✔</span> Everything in Professional</li>
+                            <li><span class="check">✔</span> Basic Linear Static Analysis</li>
+                            <li><span class="check">✔</span> 2-Axis CAM</li>
+                            <li><span class="check">✔</span> 3-Axis CAM</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#kontak" class="btn btn-primary btn-block">Hubungi Kami</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section faq-section bg-soft-light">
+            <div class="container">
+                <div class="faq-layout fade-in-up">
+                    <div class="faq-header">
+                        <h2 class="dark-text">Pertanyaan yang Sering Diajukan (FAQ)</h2>
+                        <p class="text-muted">Masih ada pertanyaan? Jangan ragu untuk menghubungi tim support kami melalui WhatsApp.</p>
+                    </div>
+                    <div class="faq-accordion">
+                        <div class="faq-item">
+                            <button class="faq-question">Apa itu ZW3D? <span class="icon">+</span></button>
+                            <div class="faq-answer"><p>ZW3D adalah solusi perangkat lunak CAD/CAE/CAM terintegrasi all-in-one yang dirancang untuk seluruh proses pengembangan produk dari hulu ke hilir.</p></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">Apa perbedaan ZW3D Standard, Professional, dan Premium? <span class="icon">+</span></button>
+                            <div class="faq-answer"><p>Standard berfokus pada desain produk. Professional menambahkan fungsionalitas mold design. Premium mencakup semuanya secara paripurna termasuk fungsi CAM untuk permesinan (machining).</p></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">Apakah ZW3D tersedia dalam versi trial? <span class="icon">+</span></button>
+                            <div class="faq-answer"><p>Ya, kami menyediakan versi trial gratis selama 30 hari secara penuh untuk Anda agar bisa mencoba seluruh fitur unggulan ZW3D sebelum memutuskan berinvestasi.</p></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">Apa itu Lisensi Perpetual di ZW3D? <span class="icon">+</span></button>
+                            <div class="faq-answer"><p>Lisensi perpetual berarti Anda membayar lisensi perangkat lunak sekali saja di awal dan memilikinya untuk seumur hidup, tanpa perlu khawatir dengan tagihan biaya langganan bulanan atau tahunan.</p></div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">Apakah ZW3D kompatibel dengan format file CAD lain? <span class="icon">+</span></button>
+                            <div class="faq-answer"><p>Sangat kompatibel. ZW3D dilengkapi fitur translasi data yang luar biasa kuat, sehingga dapat membaca, mengedit, serta menyimpan dalam format dari sebagian besar software CAD utama yang beredar di pasaran (seperti SolidWorks, Inventor, Catia, NX, dll).</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA & Footer Section -->
+        <section id="kontak" class="footer-section">
+            <div class="footer-bg-overlay"></div>
+            <div class="container relative-z">
+                <div class="cta-banner fade-in-up">
+                    <div class="cta-text">
+                        <h2>Siap Meningkatkan Produktivitas Tim Engineering Anda?</h2>
+                        <p>Dapatkan demo ZW3D eksklusif dan konsultasi gratis bersama tim ahli Kami!</p>
+                    </div>
+                    <div class="cta-img-wrapper">
+                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435490/Laptop.png" alt="Laptop ZW3D" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="footer-grid">
+                    <div class="footer-info fade-in-up">
+                        <div class="map-wrapper">
+                            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=600" alt="Map Location" loading="lazy">
+                            <div class="map-pin">📍</div>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <strong>Alamat Kantor</strong>
+                                    <p>Plaza Summarecon Bekasi 6th Floor<br>Jl. Bulevar Ahmad Yani, Bekasi, 17142, Indonesia</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <div>
+                                    <strong>Telepon / WhatsApp</strong>
+                                    <p>021-3831-7110 / 0897-7723-791</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">✉️</span>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>engineering@hetratekno.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-form fade-in-up delay-1">
+                        <h3>Feel Free to Contact Us</h3>
+                        <p class="form-desc">Tinggalkan pesan, tim representatif kami akan segera menghubungi Anda.</p>
+                        <form action="#" method="POST" class="modern-form">
+                            <div class="input-group">
+                                <input type="text" placeholder="Nama Lengkap Anda" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="tel" placeholder="No. WhatsApp Aktif" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" placeholder="Email Perusahaan" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Nama Perusahaan Anda">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block glow-btn" style="margin-top: 10px;">Konsultasi Gratis Sekarang ➔</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="other-products fade-in-up">
+                    <p class="products-title">Mitra & Produk Solusi Kami Lainnya</p>
+                    <div class="product-logos">
+                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435479/Ansys.webp" alt="Ansys" loading="lazy">
+                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435485/Creo.webp" alt="Creo" loading="lazy">
+                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435491/Mathcad.webp" alt="Mathcad" loading="lazy">
+                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435494/Zwcad.webp" alt="ZWCAD" loading="lazy">
+                    </div>
+                </div>
+                
+                <div class="footer-bottom text-center">
+                    <p>&copy; 2026 PT Hetra Teknologi Indonesia. All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
