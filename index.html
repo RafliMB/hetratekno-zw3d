@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZW3D - All-in-One CAD, CAM & CAE | Hetra Teknologi Indonesia</title>
+    <title>ZW3D - All-in-One CAD, CAM &amp; CAE | Hetra Teknologi Indonesia</title>
     <meta name="description" content="ZW3D adalah platform terintegrasi untuk desain 3D, simulasi engineering, dan CNC machining. Solusi lengkap CAD, CAE, dan CAM untuk berbagai industri.">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -20,14 +24,14 @@
             </div>
             <nav class="nav-links">
                 <a href="#fitur">Fitur</a>
-                <a href="#industri">Industri</a>
+                <a href="#solusi">Solusi</a>
                 <a href="#harga">Harga</a>
                 <a href="#faq">FAQ</a>
             </nav>
             <div class="nav-cta">
-                <a href="#kontak" class="btn btn-primary">Hubungi Kami</a>
+                <a href="#kontak" class="btn btn-shine btn-primary glow-btn">Hubungi Kami</a>
             </div>
-            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+            <button type="button" class="mobile-menu-btn" aria-label="Toggle Menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -36,22 +40,59 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section id="hero" class="hero">
             <div class="hero-bg-overlay"></div>
-            <div class="container hero-container">
-                <div class="hero-content fade-in-up">
-                    <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435493/Zw3d_Logo_White.webp" alt="ZW3D" class="hero-logo" loading="lazy">
-                    <h1>ALL-IN-ONE <span class="highlight-text">CAD, CAM & CAE</span><br>UNTUK DESAIN HINGGA MANUFAKTUR</h1>
-                    <p>Desain 3D, simulasi engineering, dan CNC machining dalam satu platform yang terintegrasi.</p>
-                    <div class="hero-buttons">
-                        <a href="#kontak" class="btn btn-primary glow-btn">REQUEST DEMO</a>
-                        <a href="#kontak" class="btn btn-outline">KONSULTASI GRATIS</a>
+            <div class="container hero-main-wrapper">                
+                <div class="hero-container">
+                    <!-- KOLOM KIRI (Teks & Tombol) -->
+                    <div class="hero-content fade-in-up">
+                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435493/Zw3d_Logo_White.webp" alt="ZW3D" class="hero-logo" loading="lazy">
+                        <h1>ALL-IN-ONE <span class="highlight-text"><br>CAD, CAM &amp; CAE</span><br> UNTUK DESAIN HINGGA MANUFAKTUR</h1>
+                        <p>Desain 3D, simulasi engineering, dan CNC machining dalam satu platform yang terintegrasi.</p>
+                        <div class="hero-buttons">
+                            <a href="#kontak" class="btn btn-shine btn-primary glow-btn">REQUEST DEMO</a>
+                            <a href="#kontak" class="btn btn-outline">KONSULTASI GRATIS</a>
+                        </div>
                     </div>
-                </div>
-                <div class="hero-image fade-in-left">
-                    <div class="image-glow-wrapper">
-                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786459825/3d_ov20.png" alt="ZW3D Interface" loading="lazy">
+
+                    <!-- KOLOM KANAN (Gambar Utama & 3 Kartu) -->
+                    <div class="hero-right-col">
+                        <div class="hero-image fade-in-left">
+                            <div class="image-glow-wrapper">
+                                <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786459825/3d_ov20.png" alt="ZW3D Interface" loading="lazy">
+                            </div>
+                        </div>
+
+                        <!-- 3 Feature Cards -->
+                        <div class="hero-feature-cards fade-in-up delay-2">
+                            
+                            <div class="h-card">
+                                <div class="h-card-img-wrapper">
+                                    <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786433648/CAD_Design.png" alt="CAD Design" loading="lazy">
+                                </div>
+                                <div class="h-card-content">
+                                    <h3>CAD Design</h3>
+                                </div>
+                            </div>
+
+                            <div class="h-card">
+                                <div class="h-card-img-wrapper">
+                                    <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435482/CAE_Simulation.webp" alt="CAE Simulation" loading="lazy">
+                                </div>
+                                <div class="h-card-content">
+                                    <h3>CAE Simulation</h3>                                    
+                                </div>
+                            </div>
+
+                            <div class="h-card">
+                                <div class="h-card-img-wrapper">
+                                    <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435483/CAM_Machining.webp" alt="CAM Machining" loading="lazy">
+                                </div>
+                                <div class="h-card-content">
+                                    <h3>CAM Machining</h3>
+                                </div>
+                            </div>                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,101 +103,16 @@
             <div class="problem-bg-pattern"></div>
             <div class="container relative-z">
                 <div class="section-header text-center fade-in-up">
-                    <span class="badge-danger">TANTANGAN INDUSTRI</span>
+                    <span class="badge-primary">TANTANGAN INDUSTRI</span>
                     <h2 class="dark-text">Masih Menggunakan Banyak Software<br>untuk Satu Proses Produk?</h2>
                     <p class="subtitle">Proses yang terpisah antara CAD, CAE dan CAM dapat menyebabkan inefisiensi, biaya tinggi, dan risiko kehilangan data.</p>
-                </div>
-                
-                <!-- Process Flow Diagram -->
-                <div class="process-flow-container fade-in-up delay-1">
-                    <!-- CAD Step -->
-                    <div class="process-step">
-                        <div class="process-box">
-                            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="var(--primary-light)"></rect>
-                                <line x1="8" y1="21" x2="16" y2="21" stroke-width="2"></line>
-                                <line x1="12" y1="17" x2="12" y2="21" stroke-width="2"></line>
-                                <path d="M12 7l3 1.5v3l-3 1.5-3-1.5v-3z" fill="var(--bg-white)" stroke="var(--primary)"></path>
-                                <polyline points="12 11.5 12 8.5"></polyline>
-                                <polyline points="9 8.5 12 10 15 8.5"></polyline>
-                            </svg>
-                        </div>
-                        <div class="process-info">
-                            <h3 class="text-primary">CAD</h3>
-                            <p>3D Design & Modeling</p>
-                            <div class="process-line"></div>
-                        </div>
-                    </div>
-
-                    <!-- Arrow -->
-                    <div class="process-arrow animated-arrow">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="4" y1="12" x2="20" y2="12"></line>
-                            <polyline points="13 5 20 12 13 19"></polyline>
-                        </svg>
-                    </div>
-
-                    <!-- CAE Step -->
-                    <div class="process-step">
-                        <div class="process-box">
-                            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                                <!-- Solid Cube -->
-                                <path d="M7 9l3 1.5v4l-3 1.5-3-1.5v-4z" fill="var(--secondary)" stroke="var(--primary)"></path>
-                                <path d="M7 9l3-1.5 3 1.5L10 10.5z" fill="var(--primary)"></path>
-                                <!-- Wireframe Cube -->
-                                <path d="M17 11l3 1.5v4l-3 1.5-3-1.5v-4z" stroke-dasharray="2 2" opacity="0.6"></path>
-                                <path d="M17 11l-3 1.5v4l3 1.5" stroke-dasharray="2 2" opacity="0.6"></path>
-                                <path d="M17 11l-3-1.5 3-1.5 3 1.5z" stroke-dasharray="2 2" opacity="0.6"></path>
-                                <!-- Simulation Arrows -->
-                                <line x1="14" y1="5" x2="14" y2="2" stroke="var(--secondary)" stroke-width="1.5"></line>
-                                <polyline points="12 4 14 2 16 4" stroke="var(--secondary)" stroke-width="1.5"></polyline>
-                            </svg>
-                        </div>
-                        <div class="process-info">
-                            <h3 class="text-primary">CAE</h3>
-                            <p>Simulation & Analysis</p>
-                            <div class="process-line"></div>
-                        </div>
-                    </div>
-
-                    <!-- Arrow -->
-                    <div class="process-arrow animated-arrow">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="4" y1="12" x2="20" y2="12"></line>
-                            <polyline points="13 5 20 12 13 19"></polyline>
-                        </svg>
-                    </div>
-
-                    <!-- CAM Step -->
-                    <div class="process-step">
-                        <div class="process-box">
-                            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                                <!-- Machine Top -->
-                                <path d="M8 3h8v3H8z" fill="var(--primary-light)"></path>
-                                <path d="M9 6h6v3H9z" fill="var(--bg-white)"></path>
-                                <!-- Spindle -->
-                                <path d="M10 9h4l-1 5h-2l-1-5z" fill="var(--primary)"></path>
-                                <!-- Base/Vise -->
-                                <path d="M4 18h16v3H4z" fill="var(--primary)"></path>
-                                <path d="M6 16h12v2H6z" fill="var(--secondary)"></path>
-                                <!-- Drill tip and spark -->
-                                <line x1="12" y1="14" x2="12" y2="16"></line>
-                                <path d="M10 14l-1-1 M14 14l1-1" stroke="#f59e0b" stroke-width="1.5"></path>
-                            </svg>
-                        </div>
-                        <div class="process-info">
-                            <h3 class="text-primary">CAM</h3>
-                            <p>Toolpath & Machining</p>
-                            <div class="process-line"></div>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Problem Grid Modernized -->
                 <div class="problem-grid fade-in-up delay-2">
                     <div class="problem-card">
                         <div class="icon-wrapper">
-                            <span class="icon-danger">
+                            <span class="icon-blue">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
                             </span>
                         </div>
@@ -165,7 +121,7 @@
                     </div>
                     <div class="problem-card">
                         <div class="icon-wrapper">
-                            <span class="icon-danger">
+                            <span class="icon-blue">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
                             </span>
                         </div>
@@ -174,7 +130,7 @@
                     </div>
                     <div class="problem-card">
                         <div class="icon-wrapper">
-                            <span class="icon-danger">
+                            <span class="icon-blue">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline><line x1="9" y1="15" x2="15" y2="15"></line></svg>
                             </span>
                         </div>
@@ -183,16 +139,16 @@
                     </div>
                     <div class="problem-card">
                         <div class="icon-wrapper">
-                            <span class="icon-danger">
+                            <span class="icon-blue">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                             </span>
                         </div>
                         <h3>Workflow Tidak Efisien</h3>
-                        <p>Proses yang terpisah dan sistem yang usang membuat kolaborasi tim menjadi lambat & tidak optimal.</p>
+                        <p>Proses yang terpisah dan sistem yang usang membuat kolaborasi tim menjadi lambat &amp; tidak optimal.</p>
                     </div>
                     <div class="problem-card">
                         <div class="icon-wrapper">
-                            <span class="icon-danger">
+                            <span class="icon-blue">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l2-9 5 18 3-10 2 3h4"></path></svg>
                             </span>
                         </div>
@@ -209,7 +165,7 @@
                 <div class="solution-content fade-in-up">
                     <h2 class="dark-text">Satu Platform untuk<br><span class="text-primary">Desain, Simulasi, dan Manufaktur</span></h2>
                     <p class="lead-text">ZW3D mengintegrasikan CAD, CAE, dan CAM dalam satu lingkungan kerja yang terhubung sehingga Anda dapat bekerja lebih cepat, akurat, dan efisien.</p>
-                    <a href="#kontak" class="btn btn-primary">PELAJARI LEBIH LANJUT <span class="arrow">→</span></a>
+                    <a href="#kontak" class="btn btn-shine btn-primary">Pelajari Lebih Lanjut</a>
                 </div>
                 <div class="solution-visual fade-in-left delay-1">
                     
@@ -290,69 +246,400 @@
             </div>
         </section>
 
-        <!-- Features Section -->
-        <section id="fitur" class="section features-section">
-            <div class="features-bg-overlay"></div>
-            <div class="container relative-z">
+        <!-- Capabilities / Features Section -->
+        <section id="fitur" class="section capabilities-section">
+            <div class="container">
                 <div class="section-header text-center fade-in-up">
-                    <h2 class="text-white">FITUR UNGGULAN ZW3D</h2>
-                    <div class="header-line"></div>
+                    <span class="badge-primary">KAPABILITAS ZW3D</span>
+                    <h2 class="dark-text">Professional Tools Across the<br>Machinery Engineering Workflow</h2>
+                    <p class="capabilities-subtitle">Dari konsep mesin hingga siap produksi — desain, validasi, manufaktur, dan data engineering bekerja dalam satu lingkungan yang terhubung.</p>
                 </div>
-                <div class="features-grid fade-in-up delay-1">
-                    <div class="feature-card-glass">
-                        <div class="feature-num">01</div>
-                        <div class="feature-icon-img">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
-                        </div>
-                        <h3>Parametric & Direct Modeling</h3>
-                        <p>Proses Desain yang lebih efisien dengan dibantu parametrik dan direct modeling.</p>
+
+                <div class="capability-showcase fade-in-up delay-1">
+                    <div class="capability-tabs" role="tablist" aria-label="Kapabilitas ZW3D">
+                        <button type="button" class="capability-tab active" id="tab-part" role="tab" aria-selected="true" aria-controls="cap-part" data-tab="cap-part">
+                            <span class="capability-tab-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg></span>
+                            <span>Part Design</span>
+                        </button>
+                        <button type="button" class="capability-tab" id="tab-assembly" role="tab" aria-selected="false" aria-controls="cap-assembly" data-tab="cap-assembly">
+                            <span class="capability-tab-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect><path d="M10 6.5h4M6.5 10v4M17.5 10v4M10 17.5h4"></path></svg></span>
+                            <span>Assembly Design</span>
+                        </button>
+                        <button type="button" class="capability-tab" id="tab-drawing" role="tab" aria-selected="false" aria-controls="cap-drawing" data-tab="cap-drawing">
+                            <span class="capability-tab-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M6 16V8h4l4 8h4"></path><path d="M6 12h6"></path></svg></span>
+                            <span>2D Drawing</span>
+                        </button>
+                        <button type="button" class="capability-tab" id="tab-cae" role="tab" aria-selected="false" aria-controls="cap-cae" data-tab="cap-cae">
+                            <span class="capability-tab-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg></span>
+                            <span>Simulation (CAE)</span>
+                        </button>
+                        <button type="button" class="capability-tab" id="tab-cam" role="tab" aria-selected="false" aria-controls="cap-cam" data-tab="cap-cam">
+                            <span class="capability-tab-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></span>
+                            <span>Manufacturing (CAM)</span>
+                        </button>
+                        <button type="button" class="capability-tab" id="tab-pdm" role="tab" aria-selected="false" aria-controls="cap-pdm" data-tab="cap-pdm">
+                            <span class="capability-tab-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></span>
+                            <span>Collaboration (PDM)</span>
+                        </button>
                     </div>
-                    <div class="feature-card-glass">
-                        <div class="feature-num">02</div>
-                        <div class="feature-icon-img">
-                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-                        </div>
-                        <h3>Ringan dan Stabil</h3>
-                        <p>Tangani assembly kompleks hingga ribuan komponen dengan performa stabil.</p>
-                    </div>
-                    <div class="feature-card-glass">
-                        <div class="feature-num">03</div>
-                        <div class="feature-icon-img">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-                        </div>
-                        <h3>Integrated Simulation</h3>
-                        <p>Lakukan analisis struktur, termal, hingga getaran tanpa software tambahan.</p>
-                    </div>
-                    <div class="feature-card-glass">
-                        <div class="feature-num">04</div>
-                        <div class="feature-icon-img">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
-                        </div>
-                        <h3>Built-in CAM</h3>
-                        <p>Dukungan machining 2-axis hingga 5-axis secara terintegrasi.</p>
-                    </div>
-                    <div class="feature-card-glass">
-                        <div class="feature-num">05</div>
-                        <div class="feature-icon-img">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                        </div>
-                        <h3>Kompatibel Data</h3>
-                        <p>Mendukung lebih dari 25 format CAD industri untuk kolaborasi mudah.</p>
-                    </div>
-                    <div class="feature-card-glass">
-                        <div class="feature-num">06</div>
-                        <div class="feature-icon-img">
-                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
-                        </div>
-                        <h3>Lisensi Seumur Hidup</h3>
-                        <p>Investasi satu kali tanpa biaya langganan tahunan.</p>
+
+                    <div class="capability-stage">
+                        <article class="capability-panel active" id="cap-part" role="tabpanel" aria-labelledby="tab-part">
+                            <div class="capability-panel-grid">
+                                <div class="capability-copy">
+                                    <span class="capability-kicker">CAD · Part Design</span>
+                                    <h3>Build Complex Parts with Control and Speed</h3>
+                                    <p class="capability-lead">Dengan Hybrid Modeling, ZW3D memungkinkan Anda membuat dan memodifikasi part kompleks secara presisi dan cepat, didukung modul profesional untuk kebutuhan desain lanjutan.</p>
+                                    <div class="capability-accordion">
+                                        <details class="capability-acc" open>
+                                            <summary>
+                                                <span class="acc-title">Pemodelan profesional dan akurat untuk desain part
+                                                    <span class="acc-query">
+                                                        <button type="button" class="acc-query-btn" aria-label="Info selengkapnya" aria-expanded="false">i</button>
+                                                        <span class="acc-query-pop" role="tooltip">Kapabilitas pemodelan andal yang didukung 3D Geometric Modeling Overdrive™ Kernel. Kombinasi parametric dan direct modeling untuk desain berbasis aturan maupun penyesuaian cepat yang intuitif.</span>
+                                                    </span>
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Parametric Modeling</strong> — Membuat dan memodifikasi model kompleks berdasarkan relasi dan constraint yang telah ditentukan.</li>
+                                                <li><strong>Direct Editing</strong> — Melakukan perubahan cepat secara langsung tanpa terikat constraint parametrik.</li>
+                                                <li><strong>Surface Modeling</strong> — Membuat permukaan halus dengan presisi melalui metode pembuatan dan editing surface yang lengkap.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Modul khusus untuk skenario lanjutan
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Advanced Tools</strong> — Mencakup sheet metal, structural design, serta modul khusus seperti Harness, ECAD/MCAD collaboration, dan Piping.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Buat dan kelola variasi desain dengan mudah
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Design Configuration</strong> — Membuat dan mengelola beberapa variasi desain dalam satu file dengan mengatur dimensi, fitur, dan parameter.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Komunikasikan desain kompleks dengan sederhana
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Web-Based Viewing</strong> — Ekspor ke HTML untuk berbagi model detail dengan cepat dan mudah diakses lewat browser standar.</li>
+                                            </ul>
+                                        </details>
+                                    </div>
+                                </div>
+                                <div class="capability-media">
+                                    <div class="capability-video-frame">
+                                        <video class="capability-video" muted loop playsinline preload="none" poster="assets/videos/capability-1.jpg" title="Demo Part Design ZW3D">
+                                            <source src="assets/videos/capability-1.mp4" type="video/mp4">
+                                            Browser Anda tidak mendukung pemutaran video.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="capability-panel" id="cap-assembly" role="tabpanel" aria-labelledby="tab-assembly">
+                            <div class="capability-panel-grid">
+                                <div class="capability-copy">
+                                    <span class="capability-kicker">CAD · Assembly Design</span>
+                                    <h3>Keep Large Machinery Assemblies Responsive</h3>
+                                    <p class="capability-lead">ZW3D memudahkan pengelolaan assembly kompleks dengan tools cerdas yang mempercepat desain, menjaga akurasi integrasi, dan menghadirkan animasi untuk presentasi yang lebih jelas.</p>
+                                    <div class="capability-accordion">
+                                        <details class="capability-acc" open>
+                                            <summary>
+                                                <span class="acc-title">Performa sangat lancar untuk assembly kompleks
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Large Assembly Performance</strong> — Bekerja lancar dengan assembly hingga 20.000 komponen berkat teknologi lightweight.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Tools cerdas untuk mempercepat desain assembly
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Flexible Assembly</strong> — Menyesuaikan dan mengoptimalkan penempatan komponen dalam assembly dengan update constraint otomatis.</li>
+                                                <li><strong>Smart Fastener</strong> — Identifikasi dan penyisipan fastener yang tepat secara otomatis untuk mempercepat proses assembly.</li>
+                                                <li><strong>Standard Part Library</strong> — Library standard part lengkap, mudah digunakan, berkualitas, dan dapat dikustomisasi.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Jaga akurasi assembly
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Interference Check</strong> — Identifikasi dan atasi interference antar komponen agar fit tepat dan meminimalkan error saat manufaktur.</li>
+                                                <li><strong>Associative Updates</strong> — Perubahan desain otomatis diteruskan ke assembly, drawing, BOM, dan deliverable terkait sehingga data tetap konsisten.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Presentasikan konsep assembly dengan jelas
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Exploded Views &amp; Animations</strong> — Visualisasikan struktur internal dan urutan assembly untuk komunikasi desain yang lebih efektif.</li>
+                                            </ul>
+                                        </details>
+                                    </div>
+                                </div>
+                                <div class="capability-media">
+                                    <div class="capability-video-frame">
+                                        <video class="capability-video" muted loop playsinline preload="none" poster="assets/videos/capability-2.jpg" title="Demo Assembly Design ZW3D">
+                                            <source src="assets/videos/capability-2.mp4" type="video/mp4">
+                                            Browser Anda tidak mendukung pemutaran video.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="capability-panel" id="cap-drawing" role="tabpanel" aria-labelledby="tab-drawing">
+                            <div class="capability-panel-grid">
+                                <div class="capability-copy">
+                                    <span class="capability-kicker">CAD · 2D Drawing</span>
+                                    <h3>Create Production Drawings that Stay Aligned</h3>
+                                    <p class="capability-lead">ZW3D mempercepat pembuatan drawing 2D dengan otomasi tugas berulang. Pembuatan drawing yang cepat dan keterkaitan asosiatif ke model 3D memastikan hasil akurat dan konsisten.</p>
+                                    <div class="capability-accordion">
+                                        <details class="capability-acc" open>
+                                            <summary>
+                                                <span class="acc-title">Update asosiatif antara model 3D dan drawing 2D
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Sync 2D Drawings With 3D Models</strong> — Hubungkan model 3D ke drawing ZWCAD DWG/DXF dengan update asosiatif secara real-time.</li>
+                                                <li><strong>PMI</strong> — Kaitkan data manufaktur dengan model 3D demi presisi dan konsistensi dari desain hingga produksi.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Pembuatan drawing 2D yang intuitif dan otomatis
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Annotation and Symbol Libraries</strong> — Otomatiskan dan sederhanakan pembuatan anotasi serta simbol standar untuk dokumentasi desain yang akurat.</li>
+                                                <li><strong>Batch Output &amp; Auto-Drafting</strong> — Percepat dokumentasi akurat dengan drafting otomatis dan beragam tools anotasi.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Pembuatan drawing view berperforma tinggi
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Advanced Projection Technology</strong> — Pembuatan drawing 2D yang akurat dan siap produksi secara cepat.</li>
+                                            </ul>
+                                        </details>
+                                    </div>
+                                </div>
+                                <div class="capability-media">
+                                    <div class="capability-video-frame">
+                                        <video class="capability-video" muted loop playsinline preload="none" poster="assets/videos/capability-3.jpg" title="Demo 2D Drawing ZW3D">
+                                            <source src="assets/videos/capability-3.mp4" type="video/mp4">
+                                            Browser Anda tidak mendukung pemutaran video.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="capability-panel" id="cap-cae" role="tabpanel" aria-labelledby="tab-cae">
+                            <div class="capability-panel-grid">
+                                <div class="capability-copy">
+                                    <span class="capability-kicker">CAE · Simulation</span>
+                                    <h3>Validate Decisions before Metal is Cut</h3>
+                                    <p class="capability-lead">Solusi desain-simulasi terintegrasi untuk desain yang optimal dan keputusan engineering yang lebih terinformasi, tanpa perlu berpindah aplikasi.</p>
+                                    <div class="capability-accordion">
+                                        <details class="capability-acc" open>
+                                            <summary>
+                                                <span class="acc-title">Sempurnakan desain lebih awal dengan insight akurat
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Unified Working Environment</strong> — Berpindah antara desain dan simulasi dalam satu lingkungan terpadu, minim pekerjaan manual dan error.</li>
+                                                <li><strong>Consistent Data Continuity</strong> — Pastikan aliran data yang presisi antara CAD dan CAE untuk hasil simulasi yang andal.</li>
+                                                <li><strong>Optimized Cost Management</strong> — Hilangkan kebutuhan software simulasi terpisah yang mahal, hemat biaya, dan percepat workflow.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Tools simulasi profesional untuk skenario spesifik
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Comprehensive Simulation Tools</strong> — Mendukung analisis struktur, getaran, heat transfer, dan fatigue untuk desain yang lebih efisien dan hemat biaya.</li>
+                                                <li><strong>Validated Performance</strong> — Akurasi terbukti melalui verifikasi ekstensif dan aplikasi nyata di berbagai tantangan industri.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Kompatibel dengan model legacy dan standar industri
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Seamless Data Exchange</strong> — Mendukung 20+ format file standar dan komersial, termasuk import/export BDF dan INP.</li>
+                                                <li><strong>Integration of Legacy Models</strong> — Import model simulasi yang sudah ada tanpa perlu simulasi ulang atau konversi format.</li>
+                                                <li><strong>Reliable Data Transfer</strong> — Jaga akurasi data dan cegah kehilangan data saat konversi format untuk hasil simulasi yang presisi.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Data akurat dan multi-physics coupling lanjutan
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Advanced Multi-Physics Coupling</strong> — Transfer data lintas disiplin seperti struktur dan termal dengan lancar.</li>
+                                            </ul>
+                                        </details>
+                                    </div>
+                                </div>
+                                <div class="capability-media">
+                                    <div class="capability-video-frame">
+                                        <video class="capability-video" muted loop playsinline preload="none" poster="assets/videos/capability-4.jpg" title="Demo Simulation (CAE) ZW3D">
+                                            <source src="assets/videos/capability-4.mp4" type="video/mp4">
+                                            Browser Anda tidak mendukung pemutaran video.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="capability-panel" id="cap-cam" role="tabpanel" aria-labelledby="tab-cam">
+                            <div class="capability-panel-grid">
+                                <div class="capability-copy">
+                                    <span class="capability-kicker">CAM · Manufacturing</span>
+                                    <h3>Turn Released Geometry into Reliable Toolpaths</h3>
+                                    <p class="capability-lead">Alur kerja design-to-manufacturing yang mulus untuk produksi efisien, dengan strategi machining lengkap dan verifikasi toolpath yang andal.</p>
+                                    <div class="capability-accordion">
+                                        <details class="capability-acc" open>
+                                            <summary>
+                                                <span class="acc-title">Produksi berkualitas dengan strategi machining lengkap
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>2- to 5-Axis Machining</strong> — Strategi lengkap untuk roughing, finishing, dan drilling dengan presisi tinggi untuk berbagai part mekanik.</li>
+                                                <li><strong>VoluMill™ CAM (Add-on)</strong> — Rough machining efisien hingga 5x lebih cepat dan 80% lebih hemat biaya tool dengan teknologi HSS/Carbide cutter.</li>
+                                                <li><strong>Post-Processing</strong> — Post-processing mudah diedit untuk berbagai sistem CNC dan kebutuhan machine tool.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Kolaborasi design-to-manufacturing yang mulus
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Powerful Built-in CAD Capability</strong> — Toolpath CAM tersinkron dengan perubahan CAD, dan file pihak ketiga dapat diedit dengan update toolpath terkait.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Akurasi machining terbukti dengan tools simulasi lanjutan
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Verification &amp; Simulation</strong> — Deteksi potensi masalah dan pastikan produksi presisi lewat toolpath verification serta full machine simulation.</li>
+                                            </ul>
+                                        </details>
+                                    </div>
+                                </div>
+                                <div class="capability-media">
+                                    <div class="capability-video-frame">
+                                        <video class="capability-video" muted loop playsinline preload="none" poster="assets/videos/capability-5.jpg" title="Demo Manufacturing (CAM) ZW3D">
+                                            <source src="assets/videos/capability-5.mp4" type="video/mp4">
+                                            Browser Anda tidak mendukung pemutaran video.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="capability-panel" id="cap-pdm" role="tabpanel" aria-labelledby="tab-pdm">
+                            <div class="capability-panel-grid">
+                                <div class="capability-copy">
+                                    <span class="capability-kicker">PDM · Collaboration</span>
+                                    <h3>Control the Engineering Record inside ZW3D</h3>
+                                    <p class="capability-lead">Product data management terintegrasi untuk desain kolaboratif, kontrol data, dan release langsung dari antarmuka 3D ZW3D.</p>
+                                    <div class="capability-accordion">
+                                        <details class="capability-acc" open>
+                                            <summary>
+                                                <span class="acc-title">Tingkatkan produktivitas R&amp;D dengan desain kolaboratif
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Fully Embedded in ZW3D</strong> — Selesaikan desain produk, kolaborasi tim, dan release data dalam antarmuka 3D yang familiar, satu platform terpadu.</li>
+                                                <li><strong>Web-Based Access</strong> — Akses real-time ke data produk lewat browser tanpa instalasi software, dari perangkat apa pun.</li>
+                                                <li><strong>Shared Workspace</strong> — Folder bersama dengan struktur berjenjang memastikan semua anggota tim mengakses file dan data yang sama.</li>
+                                                <li><strong>Component Reuse in Assembly</strong> — Integrasikan subassembly atau part dari anggota tim dengan update asosiatif untuk concurrent engineering.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Optimalkan kontrol proses untuk meningkatkan kualitas produk
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Design Iteration Control</strong> — Berpindah antar tahap dan nilai progres desain dengan mudah untuk keputusan yang lebih cepat.</li>
+                                                <li><strong>Threaded Comments and Reviews</strong> — Feedback terorganisir dan progress tracking, dengan semua komentar tercatat sebagai referensi keputusan.</li>
+                                                <li><strong>Assembly Clone</strong> — Clone assembly untuk membuat variasi cepat dengan penyesuaian kecil pada komponen.</li>
+                                                <li><strong>Trackable Approval History</strong> — Catat setiap tahap approval, termasuk submission, tahap approval, approver, timestamp, dan komentar.</li>
+                                            </ul>
+                                        </details>
+                                        <details class="capability-acc">
+                                            <summary>
+                                                <span class="acc-title">Jamin keamanan data melalui manajemen data terpadu
+                                                </span>
+                                                <span class="acc-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"></path></svg></span>
+                                            </summary>
+                                            <ul class="acc-list">
+                                                <li><strong>Precise Access Control</strong> — Sistem access control yang fleksibel dan skalabel berdasarkan status proyek dan peran tim.</li>
+                                                <li><strong>Version Management</strong> — Otomatiskan upgrade minor version via check-in/check-out, dan kelola major release dengan kontrol otorisasi.</li>
+                                                <li><strong>Real-Time Data Sync</strong> — Lacak dan sorot perubahan model secara instan dengan sinkronisasi dan akses ke versi terbaru.</li>
+                                            </ul>
+                                        </details>
+                                    </div>
+                                </div>
+                                <div class="capability-media">
+                                    <div class="capability-video-frame">
+                                        <video class="capability-video" muted loop playsinline preload="none" poster="assets/videos/capability-6.jpg" title="Demo Collaboration (PDM) ZW3D">
+                                            <source src="assets/videos/capability-6.mp4" type="video/mp4">
+                                            Browser Anda tidak mendukung pemutaran video.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- Industries Section -->
-        <section id="industri" class="section industries-section bg-soft-light">
+        <section id="solusi" class="section industries-section bg-soft-light">
             <div class="container">
                 <div class="section-header text-center fade-in-up">
                     <h2 class="dark-text">Solusi untuk Berbagai Industri</h2>
@@ -361,7 +648,7 @@
                 <div class="industry-grid fade-in-up delay-1">
                     <div class="industry-card">
                         <div class="industry-img-wrapper">
-                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435480/Automotive.jpg" alt="Automotive" loading="lazy">
+                            <img src="assets/industries/automotive.jpg" alt="Robot perakitan otomotif di lini produksi modern" loading="lazy">
                         </div>
                         <div class="industry-info">
                             <h3>Automotive</h3>
@@ -370,7 +657,7 @@
                     </div>
                     <div class="industry-card">
                         <div class="industry-img-wrapper">
-                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435490/Machinery.jpg" alt="Machinery" loading="lazy">
+                            <img src="assets/industries/machinery.jpg" alt="Mesin CNC presisi memotong logam di pabrik" loading="lazy">
                         </div>
                         <div class="industry-info">
                             <h3>Machinery</h3>
@@ -379,16 +666,16 @@
                     </div>
                     <div class="industry-card">
                         <div class="industry-img-wrapper">
-                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435492/Mold_Die.webp" alt="Mold & Die" loading="lazy">
+                            <img src="assets/industries/mold-die.jpg" alt="Komponen mold dan die presisi dari logam" loading="lazy">
                         </div>
                         <div class="industry-info">
-                            <h3>Mold & Die</h3>
-                            <p>Desain mold akurat & percepat proses manufacturing.</p>
+                            <h3>Mold &amp; Die</h3>
+                            <p>Desain mold akurat &amp; percepat proses manufacturing.</p>
                         </div>
                     </div>
                     <div class="industry-card">
                         <div class="industry-img-wrapper">
-                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435488/Industrial_Equipment.webp" alt="Industrial Equipment" loading="lazy">
+                            <img src="assets/industries/industrial-equipment.jpg" alt="Peralatan industri dengan roller dan sistem mekanik" loading="lazy">
                         </div>
                         <div class="industry-info">
                             <h3>Industrial Equipment</h3>
@@ -397,7 +684,7 @@
                     </div>
                     <div class="industry-card">
                         <div class="industry-img-wrapper">
-                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435483/Consumer_Products.webp" alt="Consumer Products" loading="lazy">
+                            <img src="assets/industries/consumer-products.jpg" alt="Produk konsumen modern dengan desain minimalis" loading="lazy">
                         </div>
                         <div class="industry-info">
                             <h3>Consumer Products</h3>
@@ -406,7 +693,7 @@
                     </div>
                     <div class="industry-card">
                         <div class="industry-img-wrapper">
-                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435486/Electronics.webp" alt="Electronics" loading="lazy">
+                            <img src="assets/industries/electronics.jpg" alt="Circuit board dengan komponen elektronik presisi" loading="lazy">
                         </div>
                         <div class="industry-info">
                             <h3>Electronics</h3>
@@ -443,7 +730,7 @@
                             <div class="why-list-item">
                                 <div class="why-icon">✓</div>
                                 <div>
-                                    <h4>Pelayanan Cepat & Responsif</h4>
+                                    <h4>Pelayanan Cepat &amp; Responsif</h4>
                                     <p>Berkomitmen memberikan pelayanan purna jual profesional, berorientasi pada kebutuhan pelanggan.</p>
                                 </div>
                             </div>
@@ -472,11 +759,10 @@
                             <li><span class="check">✔</span> Basic CAD</li>
                         </ul>
                         <div class="pricing-footer">
-                            <a href="#kontak" class="btn btn-outline-primary btn-block">WhatsApp Kami</a>
+                            <a href="#kontak" class="btn btn-outline-primary btn-block">Hubungi Kami</a>
                         </div>
                     </div>
-                    <div class="pricing-card popular">
-                        <div class="popular-badge">BEST SELLER</div>
+                    <div class="pricing-card">
                         <div class="pricing-header">
                             <h3>Standard</h3>
                             <div class="price-val">Rp 51.090.000</div>
@@ -488,14 +774,15 @@
                             <li><span class="check">✔</span> Basic Linear Static Analysis (Part)</li>
                         </ul>
                         <div class="pricing-footer">
-                            <a href="#kontak" class="btn btn-primary btn-block">WhatsApp Kami</a>
+                            <a href="#kontak" class="btn btn-outline-primary btn-block">Hubungi Kami</a>
                         </div>
                     </div>
-                    <div class="pricing-card">
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">BEST CHOICE</div>
                         <div class="pricing-header">
                             <h3>Advanced</h3>
                             <div class="price-val">Rp 85.050.000</div>
-                            <p class="pricing-target">Machine & Equipment Design</p>
+                            <p class="pricing-target">Machine &amp; Equipment Design</p>
                         </div>
                         <ul class="pricing-features">
                             <li><span class="check">✔</span> Everything in Standard</li>
@@ -506,7 +793,7 @@
                             <li><span class="check">✔</span> ZW3D Motion</li>
                         </ul>
                         <div class="pricing-footer">
-                            <a href="#kontak" class="btn btn-outline-primary btn-block">WhatsApp Kami</a>
+                            <a href="#kontak" class="btn btn-shine btn-primary btn-block glow-btn">Hubungi Kami</a>
                         </div>
                     </div>
                 </div>
@@ -555,7 +842,7 @@
                             <a href="#kontak" class="btn btn-outline-primary btn-block">Hubungi Kami</a>
                         </div>
                     </div>
-                    <div class="pricing-card small premium">
+                    <div class="pricing-card small">
                         <div class="pricing-header">
                             <h3>Premium</h3>
                             <div class="price-val">Rp 122.440.000</div>
@@ -568,9 +855,88 @@
                             <li><span class="check">✔</span> 3-Axis CAM</li>
                         </ul>
                         <div class="pricing-footer">
-                            <a href="#kontak" class="btn btn-primary btn-block">Hubungi Kami</a>
+                            <a href="#kontak" class="btn btn-outline-primary btn-block">Hubungi Kami</a>
                         </div>
                     </div>
+                </div>
+
+                <div class="comparison-block fade-in-up">
+                    <div class="comparison-heading">
+                        <div>
+                            <span class="badge-primary">TABEL PERBANDINGAN</span>
+                            <h3>ZW3D WuKong 2027 Version Comparison</h3>
+                            <p>Bandingkan kapabilitas setiap versi sebelum menentukan paket yang paling sesuai untuk tim engineering Anda.</p>
+                        </div>
+                    </div>
+                    <p class="comparison-scroll-hint">Geser tabel ke samping untuk melihat semua versi <span>→</span></p>
+                    <section class="comparison-scroll" tabindex="0" aria-label="Tabel perbandingan versi ZW3D WuKong 2027">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="cmp-feature-col">Fitur</th>
+                                    <th scope="col">Lite</th>
+                                    <th scope="col">Standard</th>
+                                    <th scope="col">Professional</th>
+                                    <th scope="col">Advanced</th>
+                                    <th scope="col"><span>2-Axis</span><small>Machining</small></th>
+                                    <th scope="col"><span>3-Axis</span><small>Machining</small></th>
+                                    <th scope="col"><span>Premium</span><small>Ultimate</small></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="cmp-group"><th colspan="8" scope="colgroup">CAD Function</th></tr>
+                                <tr><th scope="row">Converter for IGES, Parasolid, STEP, DWG/DXF, VDA, STL files etc.</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Open, Save and Directly Edit: CATIA, Inventor, NX, Creo, SolidWorks, SolidEdge, Creo/Pro and ACIS files</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">3D Print Interface</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">2D, 3D Sketch &amp; Wireframe</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Parametric Solid-Surface Hybrid Modeling</th><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Surface Modeling</th><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Assembly Design</th><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Data Inquire &amp; Geometric Healing</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Direct Edit</th><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">2D Drawings</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">PMI</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Standard Parts Library</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">TraceParts Online Parts Library</th><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr class="cmp-group"><th colspan="8" scope="colgroup">Specialized Module</th></tr>
+                                <tr><th scope="row">Sheet Metal Design</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Weldment Design</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Reverse Engineering - Point Cloud</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Steel Structure Design</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Basic Linear Static Analysis (Part)</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td></tr>
+                                <tr><th scope="row">Electrodes Design</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Mold Design</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Basic Linear Static Analysis (Assembly)</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-limited"><span class="cmp-limited-label">Limited</span></td></tr>
+                                <tr><th scope="row">ZW3D_MOTION</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Harness Design</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">ECAD/MCAD Collaboration</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Piping Design</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr class="cmp-group"><th colspan="8" scope="colgroup">CAM</th></tr>
+                                <tr><th scope="row">Drilling</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Auto-Feature Tactics</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">2-Axis Turning</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">2-Axis Milling</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Tool Path Editor</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Solid Verification</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">ZW3D Post Processor</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">NC Program (G code) Output</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">3-Axis QuickMill™</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">SmoothFlow™ Adaptive Feedrate Control</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr class="cmp-group"><th colspan="8" scope="colgroup">Available Add-on Module (additional purchase required)</th></tr>
+                                <tr><th scope="row">Structural Simulation</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">ZW3D_METAS</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">ZW3D_Flow</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">4 &amp; 5-Axis Milling</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">JT Format Input / Output</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">CATIA, SolidWorks, Creo 2D Drawing Reading</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">PARTsolutions Standard Parts Library</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">Keyshot Rendering</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">VoluMill High-Speed Roughing</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                                <tr><th scope="row">ZWTeammate</th><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-no"><span class="cmp-mark" title="Tidak tersedia">✕</span></td><td class="cmp-cell cmp-yes"><span class="cmp-mark" title="Tersedia">✓</span></td></tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <p class="comparison-note"><span class="cmp-legend cmp-yes">✓</span> Tersedia &nbsp;·&nbsp; <span class="cmp-legend cmp-limited">Limited</span> Fitur terbatas &nbsp;·&nbsp; <span class="cmp-legend cmp-no">✕</span> Tidak tersedia. Mengacu pada ZW3D WuKong 2027 Version Comparison.</p>
                 </div>
             </div>
         </section>
@@ -585,24 +951,94 @@
                     </div>
                     <div class="faq-accordion">
                         <div class="faq-item">
-                            <button class="faq-question">Apa itu ZW3D? <span class="icon">+</span></button>
+                            <button type="button" class="faq-question">Apa itu ZW3D?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
                             <div class="faq-answer"><p>ZW3D adalah solusi perangkat lunak CAD/CAE/CAM terintegrasi all-in-one yang dirancang untuk seluruh proses pengembangan produk dari hulu ke hilir.</p></div>
                         </div>
                         <div class="faq-item">
-                            <button class="faq-question">Apa perbedaan ZW3D Standard, Professional, dan Premium? <span class="icon">+</span></button>
+                            <button type="button" class="faq-question">Apa perbedaan ZW3D Standard, Professional, dan Premium?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
                             <div class="faq-answer"><p>Standard berfokus pada desain produk. Professional menambahkan fungsionalitas mold design. Premium mencakup semuanya secara paripurna termasuk fungsi CAM untuk permesinan (machining).</p></div>
                         </div>
                         <div class="faq-item">
-                            <button class="faq-question">Apakah ZW3D tersedia dalam versi trial? <span class="icon">+</span></button>
+                            <button type="button" class="faq-question">Apakah ZW3D tersedia dalam versi trial?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
                             <div class="faq-answer"><p>Ya, kami menyediakan versi trial gratis selama 30 hari secara penuh untuk Anda agar bisa mencoba seluruh fitur unggulan ZW3D sebelum memutuskan berinvestasi.</p></div>
                         </div>
                         <div class="faq-item">
-                            <button class="faq-question">Apa itu Lisensi Perpetual di ZW3D? <span class="icon">+</span></button>
+                            <button type="button" class="faq-question">Apakah perlu akun untuk mengunduh ZW3D?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                            <div class="faq-answer"><p></p></div>
+                        </div>
+                        <div class="faq-item">
+                            <button type="button" class="faq-question">Apa saja opsi lisensi yang tersedia di ZW3D?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                            <div class="faq-answer"><p></p></div>
+                        </div>
+                        <div class="faq-item">
+                            <button type="button" class="faq-question">Apa itu Lisensi Perpetual di ZW3D?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
                             <div class="faq-answer"><p>Lisensi perpetual berarti Anda membayar lisensi perangkat lunak sekali saja di awal dan memilikinya untuk seumur hidup, tanpa perlu khawatir dengan tagihan biaya langganan bulanan atau tahunan.</p></div>
                         </div>
                         <div class="faq-item">
-                            <button class="faq-question">Apakah ZW3D kompatibel dengan format file CAD lain? <span class="icon">+</span></button>
+                            <button type="button" class="faq-question">Bagaimana cara membeli ZW3D?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                            <div class="faq-answer"><p>Anda dapat menghubungi tim sales kami untuk mendapatkan konsultasi, demo produk, penawaran harga, hingga proses pembelian. Kami juga membantu instalasi, training, dan layanan after-sales.</p></div>
+                        </div>
+                        <div class="faq-item">
+                            <button type="button" class="faq-question">Apakah ZW3D kompatibel dengan format file CAD lain?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
                             <div class="faq-answer"><p>Sangat kompatibel. ZW3D dilengkapi fitur translasi data yang luar biasa kuat, sehingga dapat membaca, mengedit, serta menyimpan dalam format dari sebagian besar software CAD utama yang beredar di pasaran (seperti SolidWorks, Inventor, Catia, NX, dll).</p></div>
+                        </div>
+                        <div class="faq-item">
+                            <button type="button" class="faq-question">Apakah ZW3D bisa dijalankan di komputer dengan spesifikasi rendah?
+                                <span class="faq-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                            <div class="faq-answer"><p></p></div>
                         </div>
                     </div>
                 </div>
@@ -626,27 +1062,39 @@
                 <div class="footer-grid">
                     <div class="footer-info fade-in-up">
                         <div class="map-wrapper">
-                            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=600" alt="Map Location" loading="lazy">
-                            <div class="map-pin">📍</div>
+                            <!-- Menggunakan embed Google Maps PT Hetra Teknologi Indonesia (Plaza Summarecon Bekasi) -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d991.5714603801571!2d106.99629256983643!3d-6.225992599999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3446e96b8cf%3A0x1b223f2404d0a8ac!2sPT%20Hetra%20Teknologi%20Indonesia!5e0!3m2!1sen!2sid!4v1786604285129!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                         </div>
                         <div class="contact-details">
                             <div class="contact-item">
-                                <span class="contact-icon">📍</span>
-                                <div>
+                                <div class="contact-icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#FFFFFF"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
                                     <strong>Alamat Kantor</strong>
                                     <p>Plaza Summarecon Bekasi 6th Floor<br>Jl. Bulevar Ahmad Yani, Bekasi, 17142, Indonesia</p>
                                 </div>
                             </div>
                             <div class="contact-item">
-                                <span class="contact-icon">📞</span>
-                                <div>
+                                <div class="contact-icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.01 15.38C18.78 15.38 17.59 15.18 16.48 14.82C16.13 14.7 15.74 14.79 15.47 15.06L13.9 17.03C11.07 15.68 8.42 13.13 7.01 10.2L8.96 8.54C9.23 8.26 9.31 7.87 9.2 7.52C8.83 6.41 8.64 5.22 8.64 3.99C8.64 3.45 8.19 3 7.65 3H4.19C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21C20.72 21 21 20.37 21 19.82V16.37C21 15.83 20.55 15.38 20.01 15.38Z" fill="#FFFFFF"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
                                     <strong>Telepon / WhatsApp</strong>
                                     <p>021-3831-7110 / 0897-7723-791</p>
                                 </div>
                             </div>
                             <div class="contact-item">
-                                <span class="contact-icon">✉️</span>
-                                <div>
+                                <div class="contact-icon-box">
+                                    <svg width="22" height="18" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 2H2C0.9 2 0.01 2.9 0.01 4L0 16C0 17.1 0.9 18 2 18H22C23.1 18 24 17.1 24 16V4C24 2.9 23.1 2 22 2ZM22 6L12 12.25L2 6V4L12 10.25L22 4V6Z" fill="#FFFFFF"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
                                     <strong>Email</strong>
                                     <p>engineering@hetratekno.com</p>
                                 </div>
@@ -659,29 +1107,36 @@
                         <p class="form-desc">Tinggalkan pesan, tim representatif kami akan segera menghubungi Anda.</p>
                         <form action="#" method="POST" class="modern-form">
                             <div class="input-group">
-                                <input type="text" placeholder="Nama Lengkap Anda" required>
+                                <input type="text" placeholder="Nama Anda" required>
                             </div>
                             <div class="input-group">
-                                <input type="tel" placeholder="No. WhatsApp Aktif" required>
+                                <input type="tel" placeholder="No. WhatsApp Anda" required>
                             </div>
                             <div class="input-group">
-                                <input type="email" placeholder="Email Perusahaan" required>
+                                <input type="email" placeholder="Email Anda" required>
                             </div>
                             <div class="input-group">
-                                <input type="text" placeholder="Nama Perusahaan Anda">
+                                <input type="text" placeholder="Nama Perusahaan">
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block glow-btn" style="margin-top: 10px;">Konsultasi Gratis Sekarang ➔</button>
+                            <button type="submit" class="btn btn-shine btn-primary btn-block glow-btn" style="margin-top: 10px;">Konsultasi Sekarang</button>
                         </form>
                     </div>
                 </div>
 
                 <div class="other-products fade-in-up">
-                    <p class="products-title">Mitra & Produk Solusi Kami Lainnya</p>
-                    <div class="product-logos">
-                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435479/Ansys.webp" alt="Ansys" loading="lazy">
-                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435485/Creo.webp" alt="Creo" loading="lazy">
-                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435491/Mathcad.webp" alt="Mathcad" loading="lazy">
-                        <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435494/Zwcad.webp" alt="ZWCAD" loading="lazy">
+                    <p class="products-title">Our Other Products</p>
+                    <div class="logo-carousel-container">
+                        <div class="logo-carousel-track">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435479/Ansys.webp" alt="Ansys" loading="lazy">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435485/Creo.webp" alt="Creo" loading="lazy">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435491/Mathcad.webp" alt="Mathcad" loading="lazy">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435494/Zwcad.webp" alt="ZWCAD" loading="lazy">
+                            
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435479/Ansys.webp" alt="Ansys" loading="lazy">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435485/Creo.webp" alt="Creo" loading="lazy">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435491/Mathcad.webp" alt="Mathcad" loading="lazy">
+                            <img src="https://res.cloudinary.com/dhqs0a0bh/image/upload/v1786435494/Zwcad.webp" alt="ZWCAD" loading="lazy">
+                        </div>
                     </div>
                 </div>
                 
@@ -692,6 +1147,298 @@
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                const spans = menuBtn.querySelectorAll('span');
+                if(navLinks.classList.contains('active')) {
+                    spans[0].style.transform = 'rotate(45deg) translate(6px, 6px)';
+                    spans[1].style.opacity = '0';
+                    spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+                } else {
+                    spans[0].style.transform = 'none';
+                    spans[1].style.opacity = '1';
+                    spans[2].style.transform = 'none';
+                }
+            });
+
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.style.padding = '12px 0';
+                    navbar.style.background = 'rgba(2, 6, 23, 0.95)';
+                    navbar.style.boxShadow = '0 4px 20px rgba(0,0,0,0.3)';
+                } else {
+                    navbar.style.padding = '18px 0';
+                    navbar.style.background = 'rgba(15, 23, 42, 0.85)';
+                    navbar.style.boxShadow = 'none';
+                }
+            });
+
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const btn = item.querySelector('.faq-question');
+                btn.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    faqItems.forEach(faq => faq.classList.remove('active'));
+                    if (!isActive) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+
+            const capabilityTabs = Array.from(document.querySelectorAll('.capability-tab'));
+            const capabilityPanels = Array.from(document.querySelectorAll('.capability-panel'));
+            const capabilityVideos = Array.from(document.querySelectorAll('.capability-video'));
+            const capabilitySection = document.querySelector('.capabilities-section');
+            let capabilitySectionVisible = false;
+
+            const syncCapabilityVideo = () => {
+                capabilityVideos.forEach(video => {
+                    const panel = video.closest('.capability-panel');
+                    const isActive = panel && panel.classList.contains('active');
+
+                    if (capabilitySectionVisible && isActive) {
+                        const playPromise = video.play();
+                        if (playPromise && typeof playPromise.catch === 'function') {
+                            playPromise.catch(() => {});
+                        }
+                    } else {
+                        video.pause();
+                    }
+                });
+            };
+
+            const activateCapability = (tab) => {
+                const targetId = tab.dataset.tab;
+
+                capabilityTabs.forEach(item => {
+                    const isActive = item === tab;
+                    item.classList.toggle('active', isActive);
+                    item.setAttribute('aria-selected', isActive ? 'true' : 'false');
+                    item.setAttribute('tabindex', isActive ? '0' : '-1');
+                });
+
+                capabilityPanels.forEach(panel => {
+                    const isActive = panel.id === targetId;
+                    panel.classList.toggle('active', isActive);
+                    panel.setAttribute('aria-hidden', isActive ? 'false' : 'true');
+                });
+
+                syncCapabilityVideo();
+            };
+
+            capabilityTabs.forEach((tab, index) => {
+                tab.addEventListener('click', () => activateCapability(tab));
+
+                tab.addEventListener('keydown', (event) => {
+                    const keys = ['ArrowDown', 'ArrowRight', 'ArrowUp', 'ArrowLeft', 'Home', 'End'];
+                    if (!keys.includes(event.key)) return;
+
+                    event.preventDefault();
+                    let nextIndex = index;
+
+                    if (event.key === 'ArrowDown' || event.key === 'ArrowRight') {
+                        nextIndex = (index + 1) % capabilityTabs.length;
+                    } else if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') {
+                        nextIndex = (index - 1 + capabilityTabs.length) % capabilityTabs.length;
+                    } else if (event.key === 'Home') {
+                        nextIndex = 0;
+                    } else if (event.key === 'End') {
+                        nextIndex = capabilityTabs.length - 1;
+                    }
+
+                    capabilityTabs[nextIndex].focus();
+                    activateCapability(capabilityTabs[nextIndex]);
+                });
+            });
+
+            document.querySelectorAll('.capability-accordion').forEach(accordion => {
+                accordion.addEventListener('toggle', (event) => {
+                    if (!event.target.open) return;
+
+                    accordion.querySelectorAll('details').forEach(details => {
+                        if (details !== event.target) {
+                            details.open = false;
+                        }
+                    });
+                }, true);
+            });
+
+            const closeCapabilityQueries = () => {
+                document.querySelectorAll('.acc-query.show').forEach(query => {
+                    query.classList.remove('show');
+                    const btn = query.querySelector('.acc-query-btn');
+                    if (btn) btn.setAttribute('aria-expanded', 'false');
+                });
+            };
+
+            const hoverCapable = window.matchMedia('(hover: hover)').matches;
+
+            document.querySelectorAll('.acc-query').forEach(query => {
+                const btn = query.querySelector('.acc-query-btn');
+                if (!btn) return;
+
+                btn.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    event.stopPropagation();
+
+                    if (hoverCapable) {
+                        query.classList.add('show');
+                        btn.setAttribute('aria-expanded', 'true');
+                        return;
+                    }
+
+                    const willOpen = !query.classList.contains('show');
+                    closeCapabilityQueries();
+                    query.classList.toggle('show', willOpen);
+                    btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+                });
+
+                if (hoverCapable) {
+                    query.addEventListener('mouseenter', () => {
+                        closeCapabilityQueries();
+                        query.classList.add('show');
+                        btn.setAttribute('aria-expanded', 'true');
+                    });
+
+                    query.addEventListener('mouseleave', () => {
+                        query.classList.remove('show');
+                        btn.setAttribute('aria-expanded', 'false');
+                    });
+
+                    query.addEventListener('focusin', () => {
+                        closeCapabilityQueries();
+                        query.classList.add('show');
+                        btn.setAttribute('aria-expanded', 'true');
+                    });
+
+                    query.addEventListener('focusout', () => {
+                        query.classList.remove('show');
+                        btn.setAttribute('aria-expanded', 'false');
+                    });
+                }
+            });
+
+            document.addEventListener('click', (event) => {
+                if (!event.target.closest('.acc-query')) {
+                    closeCapabilityQueries();
+                }
+            });
+
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape') {
+                    closeCapabilityQueries();
+                }
+            });
+
+            if (capabilityTabs.length) {
+                activateCapability(capabilityTabs[0]);
+            }
+
+            if (capabilitySection && 'IntersectionObserver' in window) {
+                const capabilityVisibilityObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        capabilitySectionVisible = entry.isIntersecting;
+                        syncCapabilityVideo();
+                    });
+                }, { threshold: 0.15 });
+
+                capabilityVisibilityObserver.observe(capabilitySection);
+            }
+
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const animatedElements = document.querySelectorAll('.fade-in-up, .fade-in-left');
+            animatedElements.forEach(el => observer.observe(el));
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    navLinks.classList.remove('active');
+                    
+                    const spans = menuBtn.querySelectorAll('span');
+                    spans[0].style.transform = 'none';
+                    spans[1].style.opacity = '1';
+                    spans[2].style.transform = 'none';
+
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    
+                    const target = document.querySelector(targetId);
+                    if(target) {
+                        const headerOffset = 80;
+                        const elementPosition = target.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            });
+
+            const explodeContainer = document.getElementById('explode-container');
+            if (explodeContainer) {
+                explodeContainer.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                });
+            }
+            
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+            let scrollTimeout;
+
+            if (scrollTopBtn) {
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 400) {
+                        scrollTopBtn.classList.add('show');
+                    } else {
+                        scrollTopBtn.classList.remove('show');
+                    }
+
+                    if (scrollTopBtn.classList.contains('show')) {
+                        scrollTopBtn.classList.add('is-scrolling');
+                    }
+
+                    window.clearTimeout(scrollTimeout);
+
+                    scrollTimeout = setTimeout(() => {
+                        scrollTopBtn.classList.remove('is-scrolling');
+                    }, 200); 
+                });
+
+                scrollTopBtn.addEventListener('click', () => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+        });
+    </script>
+
+    <button type="button" id="scrollTopBtn" class="scroll-top-btn" aria-label="Kembali ke atas">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
 </body>
 </html>
